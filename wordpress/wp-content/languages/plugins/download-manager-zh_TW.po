@@ -1,0 +1,24 @@
+# Translation of Plugins - WordPress Download Manager - Development (trunk) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WordPress Download Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-26 02:56:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WordPress Download Manager - Development (trunk)\n"
+
+#: src/Admin/views/metaboxes/attach-file-datatable.php:7
+msgid "URL"
+msgstr "網址(URL)"
+
+#: src/Admin/views/metaboxes/attach-file-datatable.php:3
+msgid "Upload"
+msgstr "上傳"
+
+#: src/Package/PackageLocks.php:197 src/__/Apply.php:742
+msgid "Invalid Email Address!"
+msgstr "無效的 Email 地址"

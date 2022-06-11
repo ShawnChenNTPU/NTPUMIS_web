@@ -1,0 +1,558 @@
+# Translation of Plugins - Two Factor Authentication - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Two Factor Authentication - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-26 17:58:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Two Factor Authentication - Stable (latest release)\n"
+
+#: simba-tfa/templates/admin-settings.php:140
+msgid "The Premium version of this plugin allows you to add a configuration tab for users in the WooCommerce \"My account\" area, and anti-bot protection on the WooCommerce login form."
+msgstr "Premium 版外掛允許網站管理員在 WooCommerce 的 [我的帳號] 區域中為使用者新增設定分頁，並在 WooCommerce 登入表單中新增防止惡意登入功能。"
+
+#: simba-tfa/templates/admin-settings.php:175
+msgid "adds support for any login form from any plugin via appending your TFA code onto the end of your password."
+msgstr "新增透過附加兩步驟驗證碼至密碼尾端的方式，支援其他外掛產生的登入表單。"
+
+#: simba-tfa/templates/admin-settings.php:175
+msgid "Any-form support"
+msgstr "支援任何表單"
+
+#: simba-tfa/templates/admin-settings.php:174
+msgid "adds support for Elementor login forms."
+msgstr "新增對 Elementor 登入表單的支援。"
+
+#: simba-tfa/templates/admin-settings.php:174
+msgid "Elementor support"
+msgstr "支援 Elementor"
+
+#: simba-tfa/templates/admin-settings.php:173
+msgid "automatically add TFA settings in the WooCommerce account settings, and WooCommerce login form bot protection."
+msgstr "在 WooCommerce 帳號設定中自動新增兩步驟驗證設定，並保護 WooCommerce 登入表單免受惡意機器人侵襲。"
+
+#: simba-tfa/templates/admin-settings.php:173
+msgid "More WooCommerce features"
+msgstr "更多 WooCommerce 功能"
+
+#: simba-tfa/simba-tfa.php:1049
+msgid "two-factor-authentication"
+msgstr "two-factor-authentication"
+
+#. Author of the plugin
+msgid "David Anderson, original plugin by Oskar Hane and enhanced by Dee Nutbourne"
+msgstr "原開發者為 Oskar Hane，目前由 Dee Nutbourne 及 David Anderson 接手開發"
+
+#: simba-tfa/templates/admin-settings.php:184
+msgid "Don't send us the translation file directly - plugin authors do not have access to the wordpress.org translation system (local language teams do)."
+msgstr "請不要直接傳送語言套件檔案給我們，外掛開發者並沒有存取 WordPress.org 本地化系統的權限，這是當地語言團隊的權限。"
+
+#: simba-tfa/templates/admin-settings.php:184
+msgid "the wordpress.org translation website."
+msgstr "translate.wordpress.org 網站"
+
+#: simba-tfa/templates/admin-settings.php:184
+msgid "If you want to translate this plugin, please go to %s"
+msgstr "如果你願意協助本地化這個外掛，請造訪 %s。"
+
+#: simba-tfa/templates/admin-settings.php:138
+msgid "WooCommerce integration"
+msgstr "WooCommerce 整合"
+
+#: simba-tfa/includes/tfa_frontend.php:68
+msgid "The TFA code you entered was incorrect."
+msgstr "你輸入了錯誤的兩步驟驗證碼。"
+
+#: simba-tfa/includes/tfa_frontend.php:60
+msgid "To enable TFA, you must enter the current code."
+msgstr "如需啟用兩步驟驗證，必須輸入目前的驗證碼。"
+
+#: simba-tfa/simba-tfa.php:788
+msgid "(you must enter the current code: %s)"
+msgstr "(必須輸入目前的驗證碼: %s)"
+
+#: simba-tfa/simba-tfa.php:904
+msgid "The indicated user could not be found."
+msgstr "找不到指定的使用者。"
+
+#: simba-tfa/templates/admin-settings.php:170
+msgid "allow privileged (or all) users to mark a device as trusted and thereby only needing to supply a TFA code upon login every so-many days (e.g. every 30 days) instead of on each login."
+msgstr "允許指定或全部使用者將自己的裝置設定為受信任的裝置，受信任的裝置便只要每隔一段時間 (例如每 30 天) 登入時輸入兩步驟驗證碼，而無須每次登入都要輸入驗證碼。"
+
+#: simba-tfa/templates/admin-settings.php:169
+msgid "require your users to set up TFA to be able to log in, after an optional grace period."
+msgstr "要求網站使用者完成兩步驟驗證設定，以便在管理員設定的寬限期過後仍繼續登入。"
+
+#: simba-tfa/templates/admin-settings.php:169
+msgid "Make TFA compulsory"
+msgstr "強制啟用兩步驟驗證"
+
+#: simba-tfa/templates/admin-settings.php:84
+msgid "Allowing users to mark a device as trusted so that a two-factor code is only needed once in a specified number of days (instead of every login) is a feature of the Premium version of this plugin."
+msgstr "這項功能能讓使用者自行將個人裝置標示為受信任裝置。在指定的期限內，受信任的裝置僅需輸入一次兩步驟驗證碼，而不需每次登入都需要輸入。這是這個外掛 Premium 版的其中一項功能。"
+
+#: simba-tfa/templates/admin-settings.php:81
+msgid "Choose which user roles are permitted to mark devices they login on as trusted. This feature requires browser cookies and an https (i.e. SSL) connection to the website to work."
+msgstr "選取哪些使用者角色可將他們的裝置設定為用於登入的受信任裝置。這項功能需要瀏覽器 Cookie 及與網站的 https (即 SSL) 連線才能正確執行。"
+
+#: simba-tfa/templates/admin-settings.php:77
+#: simba-tfa/templates/admin-settings.php:170
+msgid "Trusted devices"
+msgstr "受信任的裝置"
+
+#: simba-tfa/simba-tfa.php:1011
+msgid "(Trusted device)"
+msgstr "(受信任的裝置)"
+
+#: simba-tfa/simba-tfa.php:1010
+msgid "Trust this device (allow login without 2FA for %d day)"
+msgid_plural "Trust this device (allow login without TFA for %d days)"
+msgstr[0] "信任這台裝置 (允許 %d 天登入時不須輸入兩步驟驗證碼)"
+
+#: simba-tfa/templates/user-settings.php:41
+msgid "N.B. Getting your TFA app/device to generate the correct code depends upon a) you first setting it up by entering or scanning the code below into it, and b) upon your web-server and your TFA app/device agreeing upon the UTC time (within a minute or so). The current UTC time according to the server when this page loaded: %s, and in the time-zone you have configured in your WordPress settings: %s"
+msgstr "請注意，要讓兩步驟驗證碼應用程式/裝置產生正確的驗證碼條件為 a) 首次設定時輸入下方提供的私密金鑰或掃描下面的 QR 圖碼，並且 b) 確定網頁伺服器及兩步驟驗證碼應用程式/裝置間達成 UTC 時間同步 (誤差小於或等於 1 分鐘)。這個頁面載入時，這台伺服器目前的 UTC 時間為 %s，而網站管理員為這個 WordPress 網站設定的時區時間為 %s。"
+
+#: simba-tfa/templates/settings-intro-notices.php:23
+msgid "If you activate two-factor authentication, then verify that your two-factor application and this page show the same One-Time Password (within a minute of each other) before you log out."
+msgstr "使用者啟用兩步驟驗證後，請在登出前檢查兩步驟驗證碼產生程式產生的驗證碼與這個頁面每分鐘更換的驗證碼是否相同。"
+
+#: simba-tfa/templates/settings-intro-notices.php:11
+#: simba-tfa/templates/settings-intro-notices.php:15
+msgid "The site-wide administration options are here."
+msgstr "請點擊這裡，為影響範圍為全站的管理員選項進行設定。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:453
+msgid "Otherwise, you can type the textual private key (shown below) into your app. Always keep private keys secret."
+msgstr "此外，也可以在應用程式中輸入顯示餘下方的私密金鑰內容。請記得永遠要妥善保管私密金鑰。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:451
+msgid "For OTP apps that support using a camera to scan a setup code (below), that is the quickest way to set the app up (e.g. with Duo Mobile, Google Authenticator)."
+msgstr "對於支援使用相機掃描設定用 QR 圖碼 (位於下方) 的驗證碼產生應用程式來說，這是為應用程式 (例如 Duo Mobile 或 Google Authenticator) 進行設定最快速的方式。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:445
+msgid "Setting up"
+msgstr "設定"
+
+#: simba-tfa/providers/totp-hotp/loader.php:442
+msgid "Setting up - either scan the code, or type in the private key"
+msgstr "設定方式: 掃描 QR 圖碼或輸入私密金鑰"
+
+#: simba-tfa/simba-tfa.php:786
+msgid "(Current code: %s)"
+msgstr "(目前的驗證碼: %s)"
+
+#: simba-tfa/simba-tfa.php:122
+msgid "2FA"
+msgstr "兩步驟驗證"
+
+#: simba-tfa/providers/totp-hotp/loader.php:456
+msgid "an event based algorithm"
+msgstr "一種以事件為基礎的演算法"
+
+#: simba-tfa/providers/totp-hotp/loader.php:456
+msgid "a time based algorithm"
+msgstr "一種以時間為基礎的演算法"
+
+#: simba-tfa/providers/totp-hotp/loader.php:456
+msgid "You are currently using %s, %s"
+msgstr "你目前使用的是 %s，%s。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:781
+msgid "There are no emergency codes left. You will need to reset your private key."
+msgstr "已無可用的復原碼，必須重設私密金鑰以取得新的復原碼。"
+
+#. Author URI of the plugin
+msgid "https://www.simbahosting.co.uk"
+msgstr "https://www.simbahosting.co.uk"
+
+#. Description of the plugin
+msgid "Secure your WordPress login forms with two factor authentication - including WooCommerce login forms"
+msgstr "使用兩步驟驗證保護 WordPress 網站的登入表單 - 包含 WooCommerce 登入表單。"
+
+#. Plugin URI of the plugin
+msgid "https://www.simbahosting.co.uk/s3/product/two-factor-authentication/"
+msgstr "https://www.simbahosting.co.uk/s3/product/two-factor-authentication/"
+
+#: simba-tfa/templates/settings-intro-notices.php:26
+msgid "You should also bookmark the FAQs, which explain how to de-activate the plugin even if you cannot log in."
+msgstr "〈常見問題集〉會解釋如何在無法登入時停用這個外掛，請務必將這份文件儲存在書籤中。"
+
+#: simba-tfa/templates/settings-intro-notices.php:4
+msgid "Nothing you change here will have any effect on other users."
+msgstr "你在這個頁面進行的設定變更，並<strong>不會影響其他使用者</strong>。"
+
+#: simba-tfa/templates/settings-intro-notices.php:4
+msgid "These are your personal settings."
+msgstr "以下是你的個人設定。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:564
+msgid "Click here and re-scan the QR-Code"
+msgstr "點擊這裡並重新掃描 QR 圖碼"
+
+#: simba-tfa/providers/totp-hotp/loader.php:562
+msgid "Please re-sync or you might not be able to log in if you generate more OTPs without logging in."
+msgstr "如果未進行登入卻不斷生成兩步驟驗證碼，請馬上進行重新同步，否則將會無法登入。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:560
+msgid "You need to resync your device for Two Factor Authentication since the OTP you last used is many steps ahead of the server."
+msgstr "自你最後一次使用兩步驟驗證碼後，你裝置上的計數器已經落後伺服器許多；為了取得正確的兩步驟驗證碼，必須為你的裝置進行重新同步。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:558
+msgid "Two Factor Authentication re-sync needed"
+msgstr "兩步驟驗證碼產生器必須重新同步"
+
+#: simba-tfa/simba-tfa.php:1009
+msgid "(check your OTP app to get this password)"
+msgstr "(請開啟驗證碼產生器 App 以取得驗證碼)"
+
+#: simba-tfa/simba-tfa.php:1008
+msgid "One Time Password (i.e. 2FA)"
+msgstr "請輸入兩步驟驗證碼"
+
+#: simba-tfa/simba-tfa.php:1007
+msgid "You have to enter a username first."
+msgstr "你必須先輸入使用者名稱"
+
+#: simba-tfa/simba-tfa.php:1006
+msgid "Click to enter One Time Password"
+msgstr "點擊以輸入兩步驟驗證碼"
+
+#: simba-tfa/providers/totp-hotp/loader.php:292
+msgid "Your counter on the server is currently on"
+msgstr "目前伺服器上的計數器為"
+
+#: simba-tfa/providers/totp-hotp/loader.php:286
+msgid "Choose which algorithm for One Time Passwords you want to use."
+msgstr "選擇你想使用的演算法以產生兩步驟驗證碼。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:277
+msgid "Advanced settings"
+msgstr "進階設定"
+
+#: simba-tfa/providers/totp-hotp/loader.php:241
+msgid "(update)"
+msgstr "(更新)"
+
+#: simba-tfa/providers/totp-hotp/loader.php:480
+msgid "One-time emergency codes are a feature of the Premium version of this plugin."
+msgstr "一次性復原碼為 Premium 版外掛的功能。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:416
+#: simba-tfa/providers/totp-hotp/loader.php:427
+msgid "Current one-time password"
+msgstr "目前的兩步驟驗證碼"
+
+#: simba-tfa/providers/totp-hotp/loader.php:408
+msgid "Current codes (login: %s)"
+msgstr "目前的驗證碼 (使用者為 %s)"
+
+#: simba-tfa/providers/totp-hotp/loader.php:515
+msgid "Private key:"
+msgstr "私密金鑰:"
+
+#: simba-tfa/providers/totp-hotp/loader.php:512
+msgid "Private key (base 32 - used by Google Authenticator and Authy):"
+msgstr "私密金鑰 (Base 32 格式 - 可用於 Google Authenticator 及 Authy):"
+
+#: simba-tfa/providers/totp-hotp/loader.php:139
+msgid "Updating..."
+msgstr "正在更新..."
+
+#: simba-tfa/providers/totp-hotp/loader.php:375
+#: simba-tfa/providers/totp-hotp/loader.php:468
+msgid "Reset private key"
+msgstr "重設私密金鑰"
+
+#: simba-tfa/providers/totp-hotp/loader.php:375
+msgid "Warning: if you reset this key you will have to update your apps with the new one. Are you sure you want this?"
+msgstr "提示: 如果重新設定私密金鑰，就必須在驗證碼產生器 App 中輸入新的金鑰。確定要繼續進行這項操作嗎？"
+
+#: two-factor-login.php:95
+msgid "User settings"
+msgstr "使用者設定"
+
+#: two-factor-login.php:86 two-factor-login.php:90
+msgid "Plugin settings"
+msgstr "外掛設定"
+
+#: two-factor-login.php:110
+msgid "Two Factor Auth"
+msgstr "兩步驟驗證"
+
+#: simba-tfa/simba-tfa.php:858
+msgid "Do require 2FA over XMLRPC (best option if you do not use XMLRPC or are unsure)"
+msgstr "透過 XMLRPC 連線時強制使用兩步驟驗證 (當你未使用 XMLRPC 相關用戶端程式或不確定自己有沒有使用 XMLRPC，此為最佳設定)"
+
+#: simba-tfa/simba-tfa.php:857
+msgid "Do not require 2FA over XMLRPC (best option if you must use XMLRPC and your client does not support 2FA)"
+msgstr "透過 XMLRPC 連線時無須進行兩步驟驗證 (如果使用者的用戶端應用程式不支援兩步驟驗證時，此為最佳設定)"
+
+#: simba-tfa/simba-tfa.php:832
+msgid "Multisite Super Admin"
+msgstr "多站網路管理員"
+
+#: simba-tfa/providers/totp-hotp/loader.php:256
+#: simba-tfa/providers/totp-hotp/loader.php:607
+msgid "HOTP (event based)"
+msgstr "HOTP (以事件為基礎)"
+
+#: simba-tfa/providers/totp-hotp/loader.php:255
+#: simba-tfa/providers/totp-hotp/loader.php:607
+msgid "TOTP (time based - most common algorithm; used by Google Authenticator)"
+msgstr "TOTP (以時間為基礎 - 最通用的演算法，Google Authenticator 也採用這個演算法)"
+
+#: simba-tfa/simba-tfa.php:147 simba-tfa/simba-tfa.php:793
+msgid "Disabled"
+msgstr "停用"
+
+#: simba-tfa/simba-tfa.php:793
+msgid "Disable two-factor authentication"
+msgstr "停用兩步驟驗證"
+
+#: simba-tfa/simba-tfa.php:144 simba-tfa/simba-tfa.php:783
+msgid "Enabled"
+msgstr "啟用"
+
+#: simba-tfa/simba-tfa.php:783
+msgid "Enable two-factor authentication"
+msgstr "啟用兩步驟驗證"
+
+#: simba-tfa/simba-tfa.php:780
+msgid "N.B. This site is configured to forbid you to log in if you disable two-factor authentication after your account is %d days old"
+msgstr "請注意，這個網站設定為符合「帳號已啟用 %d 天、卻停用兩步驟驗證」這個條件就禁止登入。"
+
+#: simba-tfa/includes/login-form-integrations.php:111
+#: simba-tfa/simba-tfa.php:661
+msgid "The one-time password (TFA code) you entered was incorrect."
+msgstr "你輸入了錯誤的兩步驟驗證碼。"
+
+#: two-factor-login.php:153
+msgid "The Two Factor Authentication plugin requires either the PHP openssl (preferred) or mcrypt module to be installed. Please ask your web hosting company to install one of them."
+msgstr "兩步驟驗證外掛需要 PHP OpenSSL (首選) 或 mcrypt 模組，請要求主機託管服務商擇一安裝。"
+
+#: two-factor-login.php:153
+msgid "PHP OpenSSL or mcrypt module required"
+msgstr "需要 PHP OpenSSL 或 mcrypt 模組"
+
+#: two-factor-login.php:146
+msgid "The Two Factor Authentication plugin requires PHP version %s or higher - your current version is only %s."
+msgstr "Two Factor Authentication 外掛需要 PHP %s 版或更新版本，而這個網站目前的版本為 %s。"
+
+#: two-factor-login.php:146
+msgid "Higher PHP version required"
+msgstr "需要更新版本的 PHP"
+
+#: simba-tfa/templates/user-settings.php:36
+msgid "Activate two factor authentication"
+msgstr "啟用兩步驟驗證"
+
+#: simba-tfa/templates/user-settings.php:25
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: simba-tfa/templates/user-settings.php:20
+msgid "Settings"
+msgstr "設定"
+
+#. Plugin Name of the plugin
+#: simba-tfa/templates/user-settings.php:20 two-factor-login.php:110
+#: two-factor-login.php:124 two-factor-login.php:125
+msgid "Two Factor Authentication"
+msgstr "Two Factor Authentication"
+
+#: simba-tfa/templates/shortcode-tfa-user-settings.php:6
+msgid "Two factor authentication is not available for your user."
+msgstr "這個使用者帳號無法使用兩步驟驗證。"
+
+#: simba-tfa/includes/tfa_frontend.php:180
+#: simba-tfa/providers/totp-hotp/loader.php:152
+#: simba-tfa/providers/totp-hotp/loader.php:174
+msgid "Response:"
+msgstr "回應:"
+
+#: simba-tfa/includes/tfa_frontend.php:176
+msgid "Saving..."
+msgstr "正在儲存..."
+
+#: simba-tfa/includes/tfa_frontend.php:175
+msgid "You have unsaved settings."
+msgstr "設定並未儲存。"
+
+#: simba-tfa/includes/tfa_frontend.php:131
+#: simba-tfa/includes/tfa_frontend.php:145
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: simba-tfa/includes/tfa_frontend.php:92
+msgid "an event based"
+msgstr "以事件為基礎"
+
+#: simba-tfa/includes/tfa_frontend.php:92
+msgid "a time based"
+msgstr "以時間為基礎"
+
+#: simba-tfa/simba-tfa.php:935
+msgid "You are attempting to log in to an account that has two-factor authentication enabled; this requires you to also have two-factor authentication enabled on the account whose credentials you are using."
+msgstr "目前要進行登入的帳號已啟用兩步驟驗證，這表示你必須為這個已啟用兩步驟驗證帳號輸入驗證碼才能登入。"
+
+#: simba-tfa/simba-tfa.php:921
+msgid "The site owner has forbidden you to login without two-factor authentication. Please contact the site owner to re-gain access."
+msgstr "由於這個帳號未啟用兩步驟驗證，導致網站管理員禁止了這個帳號的登入，請聯絡網站管理員以重新取得登入權限。"
+
+#: simba-tfa/includes/login-form-integrations.php:111
+#: simba-tfa/simba-tfa.php:661 simba-tfa/simba-tfa.php:904
+#: simba-tfa/simba-tfa.php:921 simba-tfa/simba-tfa.php:935
+#: simba-tfa/simba-tfa.php:1049
+msgid "Error:"
+msgstr "錯誤:"
+
+#: simba-tfa/includes/tfa_frontend.php:122
+msgid "No emergency codes left. Sorry."
+msgstr "很抱歉，已無可用的復原碼。"
+
+#: simba-tfa/templates/admin-settings.php:182
+msgid "Translations"
+msgstr "本地化"
+
+#: simba-tfa/templates/admin-settings.php:176
+msgid "access to our personal support desk for 12 months."
+msgstr "12 個月內隨時存取我們的個人化技術支援平台。"
+
+#: simba-tfa/templates/admin-settings.php:176
+msgid "Personal support"
+msgstr "個人化技術支援"
+
+#: simba-tfa/templates/admin-settings.php:172
+msgid "flexible shortcodes allowing you to design your front-end settings page for your users exactly as you wish."
+msgstr "靈活的短代碼讓網站管理員設計出更符合實際所需的前端設定頁面。"
+
+#: simba-tfa/templates/admin-settings.php:172
+msgid "More shortcodes"
+msgstr "更多短代碼"
+
+#: simba-tfa/templates/admin-settings.php:171
+msgid "enable, disable or see TFA codes for all your users from one central location."
+msgstr "提供集中啟用、停用以及檢視所有使用者兩步驟驗證的功能。"
+
+#: simba-tfa/templates/admin-settings.php:171
+msgid "Manage all users centrally"
+msgstr "集中管理所有使用者"
+
+#: simba-tfa/templates/admin-settings.php:168
+msgid "provide your users with one-time codes to use in case they lose their device."
+msgstr "當使用者遺失產生驗證碼的裝置時，提供給他這種兩步驟驗證碼進行登入並變更設定。"
+
+#: simba-tfa/providers/totp-hotp/loader.php:478
+#: simba-tfa/templates/admin-settings.php:168
+msgid "Emergency codes"
+msgstr "復原碼"
+
+#: simba-tfa/templates/admin-settings.php:164
+msgid "It comes with these extra features:"
+msgstr "以下是付費版的進階功能:"
+
+#: simba-tfa/templates/admin-settings.php:164
+msgid "If you want to say 'thank you' or help this plugin's development, or get extra features, then please take a look at the premium version of this plugin."
+msgstr "如果想表達謝意、協助外掛的開發，或是想要更多的功能，請考慮使用 Premium 版外掛。"
+
+#: simba-tfa/templates/admin-settings.php:154
+msgid "Another way to do that is by using a user-switching plugin like this one."
+msgstr "另一個方式是透過這個切換使用者的外掛。"
+
+#: simba-tfa/templates/admin-settings.php:152
+msgid "The Premium version of this plugin allows you to see and reset the TFA settings of other users."
+msgstr "Premium 版外掛允許網站管理員檢視及重設其他使用者的兩步驟驗證設定。"
+
+#: simba-tfa/templates/admin-settings.php:146
+msgid "Users' settings"
+msgstr "使用者設定"
+
+#: simba-tfa/templates/admin-settings.php:122
+msgid "Your users can change this in their own settings if they want."
+msgstr "使用者可根據他們的需求變更此項設定。"
+
+#: simba-tfa/templates/admin-settings.php:121
+msgid "Default algorithm"
+msgstr "預設演算法"
+
+#: simba-tfa/templates/admin-settings.php:106
+msgid "i.e. XMLRPC requests coming in to WordPress (whether from a legitimate app, or from an attacker) can only be verified using the password - not with a two-factor code. As a result, there not be an ideal option to pick below. You may have to choose between the convenience of using your apps, or the security of two factor authentication."
+msgstr "舉例來說，無論是合法程式或是攻擊者，只要他們透過 XMLRPC 要求進入 WordPress 網站，僅需正確的密碼即可通行，無須使用第二步驟驗證碼。正因為如此，下面沒有既便利又安全的選項，網站管理員必須從使用 App 的便利性以及使用兩步驟驗證的安全性兩者間擇一選用。"
+
+#: simba-tfa/templates/admin-settings.php:103
+msgid "Unfortunately, XMLRPC also provides a way for attackers to perform actions on your WordPress site, using only a password (i.e. without a two-factor password). More unfortunately, authors of legitimate programmes using XMLRPC have not yet added two-factor support to their code."
+msgstr "糟糕的是，XMLRPC 也提供了攻擊者在這個 WordPress 網站上執行變更操作的能力，在<b>未啟用兩步驟驗證</b>的狀況下，僅需知道密碼即可實作此類攻擊。更糟糕的是，開發內建 XMLRPC 功能的合法程式的開發者們，並未對在他們的程式加入兩步驟驗證支援。"
+
+#: simba-tfa/templates/admin-settings.php:100
+msgid "XMLRPC is a feature within WordPress allowing other computers to talk to your WordPress install. For example, it could be used by an app on your tablet that allows you to blog directly from the app (instead of needing the WordPress dashboard)."
+msgstr "XMLRPC 為 WordPress 的內建功能，該功能允許其他裝置與這個 WordPress 進行互動。舉例來說，如果網站管理員的平板上有個具備 XMLRPC 功能的 App，便可以透過該 App 在具備管理權限的 WordPress 網站上直接發表文章，而無須進入 WordPress 控制台。"
+
+#: simba-tfa/templates/admin-settings.php:96
+msgid "XMLRPC requests"
+msgstr "XMLRPC 要求"
+
+#: simba-tfa/templates/admin-settings.php:71
+msgid "Requiring users to use two-factor authentication is a feature of the Premium version of this plugin."
+msgstr "「強制要求使用者啟用兩步驟驗證」是 Premium 版外掛的功能。"
+
+#: simba-tfa/templates/admin-settings.php:67
+msgid "Make two factor authentication compulsory"
+msgstr "強制啟用兩步驟驗證"
+
+#: simba-tfa/templates/admin-settings.php:58
+msgid "Choose which user roles will have two factor authentication available."
+msgstr "下列使用者角色，核取後便可以啟用啟用兩步驟驗證功能。"
+
+#: simba-tfa/templates/admin-settings.php:57
+msgid "User roles"
+msgstr "使用者角色"
+
+#: simba-tfa/templates/admin-settings.php:45
+msgid "N.B. These two-factor settings apply to your entire WordPress network. (i.e. They are not localised to one particular site)."
+msgstr "請注意，這裡的兩步驟驗證設定會套用至整個 WordPress 多站網路，即使他們並未集中至同一個特定網站。"
+
+#: simba-tfa/templates/admin-settings.php:33
+msgid "Two factor authentication is currently disabled via the TWO_FACTOR_DISABLE constant (which is mostly likely to be defined in your wp-config.php)"
+msgstr "目前因設定了常數 TWO_FACTOR_DISABLE 導致兩步驟驗證停用，這項設定通常會定義在網站的 wp-config.php 檔案中。"
+
+#: simba-tfa/templates/admin-settings.php:31
+msgid "Two Factor Authentication currently disabled"
+msgstr "兩步驟驗證目前已停用"
+
+#: simba-tfa/templates/admin-settings.php:24
+msgid "Lead developer's homepage"
+msgstr "首席程式設計師網站"
+
+#: simba-tfa/templates/admin-settings.php:22
+msgid "Twitter"
+msgstr "Twitter"
+
+#: simba-tfa/templates/admin-settings.php:21
+msgid "More premium plugins"
+msgstr "更多付費外掛"
+
+#: simba-tfa/templates/admin-settings.php:20
+msgid "WordPress backups"
+msgstr "WordPress 備份"
+
+#: simba-tfa/templates/admin-settings.php:19
+msgid "More free plugins"
+msgstr "更多免費外掛"
+
+#: simba-tfa/templates/admin-settings.php:18
+msgid "Support"
+msgstr "技術支援"
+
+#: simba-tfa/templates/admin-settings.php:14
+#: simba-tfa/templates/admin-settings.php:162
+msgid "Premium version"
+msgstr "Premium 版"
+
+#: simba-tfa/templates/admin-settings.php:9
+msgid "Two Factor Authentication (Version: %s) - Admin Settings"
+msgstr "Two Factor Authentication %s 版 - 管理員設定"

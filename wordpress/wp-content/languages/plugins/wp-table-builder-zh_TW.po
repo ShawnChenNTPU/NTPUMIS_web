@@ -1,0 +1,458 @@
+# Translation of Plugins - WP Table Builder &#8211; WordPress Table Plugin - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WP Table Builder &#8211; WordPress Table Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-04 21:06:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WP Table Builder &#8211; WordPress Table Plugin - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://wptablebuilder.com//"
+msgstr "https://wptablebuilder.com//"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:143
+msgid "Rating Alignment"
+msgstr "評分對齊方式"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:40
+msgid "Star Rating"
+msgstr "評分"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:94
+msgid "Star Rating Options"
+msgstr "評分選項"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:103
+msgid "Star Size"
+msgstr "星號尺寸"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:118
+msgid "Star Color"
+msgstr "星號顏色"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:155
+msgid "Show Number Rating"
+msgstr "顯示評分等級"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:167
+msgid "Number Rating Size"
+msgstr "評分數字大小"
+
+#: inc/admin/class-admin-menu.php:427
+#: inc/admin/views/builder/table-element/table-setting-element.php:245
+msgid "Make Table Responsive"
+msgstr "啟用自適應表格"
+
+#: inc/admin/views/builder/wptb-builder-header.php:90
+msgid "Preview"
+msgstr "預覽"
+
+#: inc/admin/class-wptb-listing.php:323
+msgid "Table duplicate successfully."
+msgstr "表格複製成功。"
+
+#: inc/admin/class-import.php:407 inc/admin/class-preview.php:208
+msgid "%s Preview"
+msgstr "%s 預覽"
+
+#: inc/admin/class-admin-menu.php:178 inc/admin/class-import.php:408
+#: inc/admin/class-preview.php:209
+#: inc/admin/managers/gutenberg-block-manager.php:118
+#: inc/admin/js/core/gutenberg-src/containers/TableBlockApp.js:49
+#: inc/admin/js/gutenberg-build/wptb-block.js:1
+msgid "Table"
+msgstr "表格"
+
+#: inc/admin/class-preview.php:226
+msgid "This is a preview of your table. This page is not publicly accessible."
+msgstr "這是表格的預覽。此頁面無法公開訪問。"
+
+#: inc/admin/views/builder/table-element/table-cell-setting-element.php:77
+msgid "Column Width"
+msgstr "直欄寬度"
+
+#: inc/admin/views/builder/table-element/table-cell-setting-element.php:101
+msgid "Row Height"
+msgstr "橫列高度"
+
+#: inc/admin/views/builder/table-element/table-cell-setting-element.php:92
+#: inc/admin/views/builder/table-element/table-cell-setting-element.php:116
+msgid "Fixed"
+msgstr "固定"
+
+#: inc/admin/views/builder/table-element/table-cell-setting-element.php:93
+#: inc/admin/views/builder/table-element/table-cell-setting-element.php:117
+msgid "Auto"
+msgstr "自動"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: inc/admin/class-admin-menu.php:197 inc/admin/class-admin-menu.php:198
+#: inc/admin/class-admin-menu.php:219 inc/admin/class-admin-menu.php:229
+#: inc/admin/class-tables.php:197
+#: inc/admin/views/builder/wptb-builder-left-panel.php:19
+#: inc/admin/js/core/gutenberg-src/wptb-block.js:13
+#: inc/admin/js/gutenberg-build/wptb-block.js:1
+msgid "WP Table Builder"
+msgstr "WP Table Builder"
+
+#: inc/admin/class-admin-menu.php:220 inc/admin/class-admin-menu.php:496
+msgid "All Tables"
+msgstr "所有表格"
+
+#: inc/admin/class-tables.php:67
+msgid "Edit"
+msgstr "編輯"
+
+#: inc/admin/class-tables.php:75 inc/admin/class-tables.php:80
+#: inc/admin/class-wptb-listing.php:243
+#: inc/admin/element-classes/elements/shortcode-element.php:40
+msgid "Shortcode"
+msgstr "短代碼"
+
+#: inc/admin/class-tables.php:79 inc/admin/class-wptb-listing.php:242
+msgid "Title"
+msgstr "標題"
+
+#: inc/admin/class-tables.php:81
+msgid "Date"
+msgstr "日期"
+
+#: inc/admin/class-wptb-listing.php:26
+msgid "WPTB Table"
+msgstr "WPTB 表格"
+
+#: inc/admin/class-wptb-listing.php:27
+msgid "WPTB Tables"
+msgstr "WPTB 表格"
+
+#. translators: %s - admin area page builder page URL.
+#: inc/admin/class-wptb-listing.php:150
+msgid "Whoops, you haven't created a table yet. Want to <a href=\"%s\">give it a go</a>?"
+msgstr "哦喔！你尚未建立表格，想要<a href=\"%s\">從這裡開始</a> 建立表格嗎？"
+
+#: inc/admin/class-wptb-listing.php:182
+msgid "Edit This Table"
+msgstr "編輯此表格"
+
+#: inc/admin/class-wptb-listing.php:244
+msgid "Created"
+msgstr "已建立"
+
+#: inc/admin/class-wptb-listing.php:245
+#: inc/admin/js/core/gutenberg-src/components/TableInspectorControls.js:14
+#: inc/admin/js/gutenberg-build/wptb-block.js:1
+msgid "ID"
+msgstr "編號"
+
+#: inc/admin/class-wptb-listing.php:337
+msgid "Table deleted successfully."
+msgstr "表格刪除成功。"
+
+#: inc/admin/class-wptb-listing.php:360
+msgid "Bulk Delete Performed Successfully."
+msgstr "批次刪除成功。"
+
+#: inc/admin/element-classes/elements/button-element.php:46
+#: inc/admin/views/builder/additional-element.php:3
+msgid "Button"
+msgstr "按鈕"
+
+#: inc/admin/views/builder/wptb-builder-header.php:96
+msgid "Save Table"
+msgstr "儲存表格"
+
+#: inc/admin/element-classes/elements/text-element.php:40
+msgid "Text"
+msgstr "文字"
+
+#: inc/admin/element-classes/elements/image-element.php:40
+msgid "Image"
+msgstr "圖片"
+
+#: inc/admin/element-classes/elements/list-element.php:40
+msgid "List"
+msgstr "清單"
+
+#: inc/admin/element-classes/elements/text-element.php:94
+msgid "Text Options"
+msgstr "表格選項"
+
+#: inc/admin/element-classes/elements/star-rating-element.php:185
+#: inc/admin/element-classes/elements/text-element.php:103
+msgid "Font Color"
+msgstr "字體顏色"
+
+#: inc/admin/element-classes/elements/image-element.php:94
+msgid "Image Options"
+msgstr "圖片選項"
+
+#: inc/admin/element-classes/elements/image-element.php:111
+msgid "Image Alignment"
+msgstr "圖片對齊方式"
+
+#: inc/admin/element-classes/elements/image-element.php:123
+msgid "Image Size"
+msgstr "圖片尺寸"
+
+#: inc/admin/element-classes/elements/image-element.php:138
+msgid "Image Link"
+msgstr "圖片連結"
+
+#: inc/admin/controls/control-url.php:83
+msgid "Insert Link Here"
+msgstr "在此處插入連結"
+
+#: inc/admin/controls/control-url.php:89
+msgid "Open Link in New Tab"
+msgstr "開啟新分頁"
+
+#: inc/admin/controls/control-url.php:94
+msgid "Nofollow Link"
+msgstr "設為 Nofollow"
+
+#: inc/admin/element-classes/elements/image-element.php:147
+msgid "Image Alternative Text"
+msgstr "圖片替代文字(ALT)"
+
+#: inc/admin/element-classes/elements/image-element.php:152
+msgid "Image Alt Text"
+msgstr "圖片ALT文字"
+
+#: inc/admin/element-classes/elements/button-element.php:106
+msgid "Button Size"
+msgstr "按鈕尺寸"
+
+#: inc/admin/element-classes/elements/button-element.php:163
+msgid "Button Text Color"
+msgstr "按鈕文字顏色"
+
+#: inc/admin/element-classes/elements/button-element.php:177
+msgid "Button Link"
+msgstr "按鈕連結"
+
+#: inc/admin/element-classes/elements/button-element.php:183
+msgid "Button Alignment"
+msgstr "按鈕對齊方式"
+
+#: inc/admin/element-classes/elements/list-element.php:94
+msgid "List Options"
+msgstr "清單選項"
+
+#: inc/admin/element-classes/elements/list-element.php:103
+msgid "List Type"
+msgstr "清單類型"
+
+#: inc/admin/element-classes/elements/list-element.php:127
+msgid "List Icon"
+msgstr "清單符號"
+
+#: inc/admin/element-classes/elements/list-element.php:171
+msgid "List Font Color"
+msgstr "清單文字顏色"
+
+#: inc/admin/element-classes/elements/list-element.php:212
+msgid "List Alignment"
+msgstr "清單對齊方式"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:392
+#: inc/admin/views/builder/table-element/table-setting-element.php:448
+#: inc/admin/views/builder/wptb-builder-left-panel.php:138
+#: inc/admin/views/builder/wptb-builder-table-setup.php:85
+#: inc/admin/views/builder/wptb-builder-table-setup.php:112
+msgid "Close"
+msgstr "關閉"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:188
+msgid "Table Border"
+msgstr "表格框線"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:210
+msgid "Apply Inner Border"
+msgstr "套用內邊框"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:75
+msgid "Cell Padding"
+msgstr "儲存格邊界"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:348
+#: inc/admin/views/builder/wptb-builder-table-setup.php:69
+msgid "Merge"
+msgstr "合併"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:359
+#: inc/admin/views/builder/wptb-builder-table-setup.php:73
+msgid "Split"
+msgstr "分割"
+
+#: inc/admin/class-wptb-listing.php:169
+msgid "Table (ID #"
+msgstr "表格 (ID #"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:352
+#: inc/admin/views/builder/wptb-builder-table-setup.php:68
+msgid "Merge Selected Cells"
+msgstr "合併已選儲存格"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:363
+#: inc/admin/views/builder/wptb-builder-table-setup.php:72
+msgid "Unmerge Selected Cell"
+msgstr "取消合併已選儲存格"
+
+#. Plugin URI of the plugin
+msgid "https://wptablebuilder.com/"
+msgstr "https://wptablebuilder.com/"
+
+#: inc/admin/views/builder/wptb-header-toolbox.php:8
+msgid "Manage Cells"
+msgstr "管理儲存格"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:395
+#: inc/admin/views/builder/table-element/table-setting-element.php:451
+#: inc/admin/views/builder/wptb-builder-left-panel.php:138
+#: inc/admin/views/builder/wptb-builder-table-setup.php:84
+#: inc/admin/views/builder/wptb-builder-table-setup.php:111
+msgid "Close Manage Cells Mode"
+msgstr "關閉管理儲存格模式"
+
+#: inc/admin/class-admin-menu.php:230 inc/admin/class-admin-menu.php:501
+msgid "Add New"
+msgstr "新增表格"
+
+#: inc/admin/views/builder/wptb-builder-header.php:111
+msgid "To embed this table on your site, please paste the following shortcode inside a post or page."
+msgstr "若要將此表格嵌入到網站中，請複製已下短代碼並貼到文章或頁面。"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:229
+msgid "Inner Border Size"
+msgstr "表格內框線"
+
+#: inc/admin/element-classes/elements/button-element.php:137
+msgid "Button Color"
+msgstr "按鈕背景顏色"
+
+#: inc/admin/element-classes/elements/button-element.php:194
+msgid "Insert Button ID Here"
+msgstr "在此處插入按鈕 ID"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:341
+#: inc/admin/views/builder/wptb-builder-table-setup.php:64
+msgid "Add Row to the End"
+msgstr "新增橫列到尾端"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:319
+#: inc/admin/views/builder/wptb-builder-table-setup.php:56
+msgid "Add Column to the End"
+msgstr "新增直欄到尾端"
+
+#: inc/admin/views/builder/wptb-builder-left-panel.php:133
+msgid "You are currently editing the table cells. Click \"Close\" to go back to editing the table."
+msgstr "你正在編輯儲存格。 點擊「關閉」返回到表格編輯。"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:374
+#: inc/admin/views/builder/wptb-builder-table-setup.php:76
+msgid "Delete Highlighted Column"
+msgstr "刪除已選的直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:385
+#: inc/admin/views/builder/wptb-builder-table-setup.php:80
+msgid "Delete Highlighted Row"
+msgstr "刪除已選的橫列"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:419
+#: inc/admin/views/builder/wptb-builder-table-setup.php:99
+msgid "Add Column Before Highlighted One"
+msgstr "在所選儲存格所屬列上方新增1個橫列。"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:408
+#: inc/admin/views/builder/wptb-builder-table-setup.php:95
+msgid "Add Column After Highlighted One"
+msgstr "在所選儲存格所屬列下方新增1個橫列。"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:441
+#: inc/admin/views/builder/wptb-builder-table-setup.php:107
+msgid "Add Row Before Highlighted One"
+msgstr "在所選儲存格所屬列上方新增1個橫列。"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:430
+#: inc/admin/views/builder/wptb-builder-table-setup.php:103
+msgid "Add Row After Highlighted One"
+msgstr "在所選儲存格所屬列下方新增1個橫列。"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:370
+#: inc/admin/views/builder/wptb-builder-table-setup.php:77
+msgid "Remove Column"
+msgstr "移除直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:315
+#: inc/admin/views/builder/wptb-builder-table-setup.php:57
+msgid "Add Right Column"
+msgstr "在右側加入直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:304
+#: inc/admin/views/builder/wptb-builder-table-setup.php:53
+msgid "Add Left Column"
+msgstr "在左側加入直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:337
+#: inc/admin/views/builder/wptb-builder-table-setup.php:65
+msgid "Add Bottom Row"
+msgstr "在最底端插入 1 橫列"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:330
+#: inc/admin/views/builder/wptb-builder-table-setup.php:60
+msgid "Add Row to the Start"
+msgstr "新增 1 橫列到最左側"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:308
+#: inc/admin/views/builder/wptb-builder-table-setup.php:52
+msgid "Add Column to the Start"
+msgstr "新增 1 直欄到最左邊"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:381
+#: inc/admin/views/builder/wptb-builder-table-setup.php:81
+msgid "Remove Row"
+msgstr "移除行直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:404
+#: inc/admin/views/builder/wptb-builder-table-setup.php:96
+msgid "Insert Column After"
+msgstr "在之後插入 1 直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:415
+#: inc/admin/views/builder/wptb-builder-table-setup.php:100
+msgid "Insert Column Before"
+msgstr "在之前插入 1 直欄"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:426
+#: inc/admin/views/builder/wptb-builder-table-setup.php:104
+msgid "Insert Row After"
+msgstr "在之後插入 1 橫列"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:437
+#: inc/admin/views/builder/wptb-builder-table-setup.php:108
+msgid "Insert Row Before"
+msgstr "在之前插入 1 橫列"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:326
+#: inc/admin/views/builder/wptb-builder-table-setup.php:61
+msgid "Add Top Row"
+msgstr "在最頂端插入 1 橫列"
+
+#: inc/admin/class-admin-menu.php:209 inc/admin/class-admin-menu.php:241
+msgid "Table Builder"
+msgstr "表格產生器"
+
+#: inc/admin/views/builder/table-element/table-setting-element.php:201
+msgid "BorderColor"
+msgstr "框線色彩"
+
+#: inc/admin/element-classes/elements/list-element.php:182
+#: inc/admin/element-classes/elements/text-element.php:125
+msgid "Font Size"
+msgstr "字型大小"

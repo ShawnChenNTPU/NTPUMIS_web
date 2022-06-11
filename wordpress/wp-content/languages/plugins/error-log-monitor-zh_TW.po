@@ -1,0 +1,523 @@
+# Translation of Plugins - Error Log Monitor - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Error Log Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-20 16:42:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Error Log Monitor - Stable (latest release)\n"
+
+#: Elm/DashboardWidget.php:973
+msgctxt "action link: mark an error as not fixed"
+msgid "Unmark"
+msgstr "取消標示"
+
+#: Elm/DashboardWidget.php:965
+msgid "No messages have been marked as fixed."
+msgstr "找不到標示為 [已修正] 的訊息。"
+
+#: Elm/DashboardWidget.php:961
+msgctxt "table heading"
+msgid "Marked as fixed"
+msgstr "已標示為 [已修正]"
+
+#: Elm/DashboardWidget.php:945
+msgctxt "button title"
+msgid "Clear Ignored Messages"
+msgstr "清除忽略的訊息"
+
+#: Elm/DashboardWidget.php:940
+msgctxt "progress text when clearing ignored messages"
+msgid "Processing..."
+msgstr "正在處理..."
+
+#: Elm/DashboardWidget.php:257
+msgctxt "action link"
+msgid "Mark as fixed"
+msgstr "標示為 [已修正]"
+
+#: Elm/DashboardWidget.php:253
+msgid "Mark the error as fixed and hide it. If this error happens again in the future, it will become visible again."
+msgstr "將錯誤標示為 [已修正] 並隱藏。如果將來再次出現相同錯誤，便會再次顯示。"
+
+#: Elm/SetupWizard.php:389
+msgid "The log file will be empty at first. This is normal. When any PHP errors happen, they should show up in the log."
+msgstr "剛開始記錄時，記錄檔會是空檔案，這很正常；當 PHP 錯誤發生時，相關記錄便會顯示在記錄檔中。"
+
+#: Elm/SetupWizard.php:327
+msgid "The log file already exists but it is not writable: <code>%s</code>."
+msgstr "記錄檔已存在，但無法進行寫入: <code>%s</code>。"
+
+#: Elm/SetupWizard.php:317
+msgid "Could not create a log file in directory <code>%s</code>."
+msgstr "無法在 <code>%s</code> 目錄建立記錄檔。"
+
+#: Elm/SetupWizard.php:306
+msgid "Could not find a suitable location for the log file."
+msgstr "找不到儲存記錄檔的適合位置。"
+
+#: Elm/SetupWizard.php:248
+msgid ""
+"When that's done, please go to the Dashboard. You should see a message like \n"
+"\t\t\t\"Log is empty\" in the \"PHP Error Log\" widget. This is normal - the log will stay empty \n"
+"\t\t\tuntil an error actually happens."
+msgstr "完成以上操作後，請前往 [控制台]，在 [PHP 錯誤記錄] 小工具中應該會看到類似 [目前記錄檔中並無任何記錄] 的訊息。這很正常，記錄檔在錯誤發生前都會是空檔案。"
+
+#: Elm/SetupWizard.php:244
+msgid "More information about WP_DEBUG."
+msgstr "進一步了解 WP_DEBUG"
+
+#: Elm/SetupWizard.php:231
+msgid ""
+"Also, find the line %1$s and change it to %2$s. This code enables \"debug\" mode in WordPress. \n"
+"\t\t\t\tThis is makes it possible to log everything including PHP notices and other minor errors. \n"
+"\t\t\t\tIf debugging is disabled, WordPress will automatically change error reporting settings to log \n"
+"\t\t\t\tonly fatal errors and warnings."
+msgstr "接下來請找到 %1$s，並將它變更為 %2$s。這項程式碼會在 WordPress 網站中啟用偵錯模式，這樣便能記錄全部事件，包含 PHP 通知及其他小錯誤。當偵錯模式停用時，WordPress 便會錯誤報告設定，並僅記錄嚴重錯誤及警告。"
+
+#: Elm/SetupWizard.php:217
+msgid "Next, please add this code to %1$s and replace the placeholder %2$s with the actual path to the new log file:"
+msgstr "下一步便是在 %1$s 中新增以下程式碼，並將 %2$s 這項預留位置資訊置換為記錄檔的完整真實路徑:"
+
+#: Elm/SetupWizard.php:214
+msgid "Changing the PHP Configuration"
+msgstr "變更 PHP 設定"
+
+#: Elm/SetupWizard.php:205
+msgid ""
+"Change the file permissions to allow PHP to write to the file. This step will vary depending on \n"
+"\t\t\t\tthe server configuration. If you're unsure what permissions to use, try using the same settings as\n"
+"\t\t\t\tfor the files in %s, or refer to the documentation provided by your hosting provider."
+msgstr "變更檔案權限便能讓 PHP 寫入記錄檔，這個步驟會因不同的伺服器設定而有所不同。如果不確定目前的檔案權限，請使用與 %s 目錄中的檔案相同的權限，或參考網站主機服務商所提供的說明文件。"
+
+#: Elm/SetupWizard.php:196
+msgid ""
+"Create an empty text file and upload it to your selected directory. The file name doesn't matter. \n"
+"\t\t\t\tHere are some suggestions: %s"
+msgstr "建立空的文字檔並將該檔案上傳到指定目錄。檔案名稱可隨意命名，檔案名稱的建議為 %s。"
+
+#: Elm/SetupWizard.php:186
+msgid ""
+"First, decide where you want to put the log file on your server. \n"
+"\t\t\tFor security purposes, it should usually be in a directory that can't be accessed by site visitors \n"
+"\t\t\tand non-admin users. For example, you could create a \"php-logs\" directory above the web root and \n"
+"\t\t\tplace the file there."
+msgstr "首先，請先決定在網站伺服器上儲存記錄檔的位置。為了安全性考量，存放記錄檔的目錄通常是網站訪客及非網站管理使用者無法存取的目錄。舉例來說，網站管理員可以在網站根目錄外建立一個名為 php-logs 的目錄，並將記錄檔儲存於此。"
+
+#: Elm/SetupWizard.php:184
+msgid "Creating a Log File"
+msgstr "建立記錄檔"
+
+#: Elm/SetupWizard.php:181
+msgid "Configure PHP to write all errors to that file."
+msgstr "設定 PHP 以便將全部記錄寫入記錄檔。"
+
+#: Elm/SetupWizard.php:180
+msgid "Create a log file."
+msgstr "建立記錄檔。"
+
+#: Elm/SetupWizard.php:176
+msgid "To get started you need to do two things:"
+msgstr "要完成設定，網站管理員必須完成兩項工作:"
+
+#: Elm/SetupWizard.php:173
+msgid "Manual Configuration Instructions"
+msgstr "手動設定指南"
+
+#: Elm/SetupWizard.php:161
+msgid "Please follow the manual configuration instructions instead."
+msgstr "請依照手動設定指南進行操作。"
+
+#: Elm/SetupWizard.php:157
+msgctxt "setup wizard error prefix"
+msgid "There was an error:"
+msgstr "設定時發生錯誤:"
+
+#: Elm/SetupWizard.php:149
+msgid "Setup complete!"
+msgstr "設定完成！"
+
+#: Elm/SetupWizard.php:143
+msgid "Checking configuration..."
+msgstr "正在檢查設定..."
+
+#: Elm/SetupWizard.php:130
+msgctxt "setup wizard button"
+msgid "Done"
+msgstr "完成"
+
+#. translators: A link to English-language documentation about editing
+#. wp-config.php.
+#: Elm/SetupWizard.php:123
+msgid "Documentation: %s"
+msgstr "參考資料: %s"
+
+#: Elm/SetupWizard.php:110
+msgid "Recommended: To log all types of errors instead of only fatal errors and warnings, also find the line %1$s and change it to %2$s."
+msgstr "建議事項: 如需記錄全部類型的錯誤，而不是僅記錄嚴重錯誤，請找到 %1$s，並將它變更為 %2$s。"
+
+#: Elm/SetupWizard.php:98
+msgid "Please add this code to your %s and then click \"Done\":"
+msgstr "請將以下程式碼新增至這個網站的 %s 中，然後點擊 [完成]:"
+
+#: Elm/SetupWizard.php:92
+msgid "Creating a log file..."
+msgstr "正在建立記錄檔..."
+
+#: Elm/SetupWizard.php:82
+msgctxt "setup wizard button"
+msgid "Hide Manual Instructions"
+msgstr "隱藏手動設定"
+
+#: Elm/SetupWizard.php:73
+msgctxt "setup wizard button"
+msgid "Manual Configuration"
+msgstr "手動設定"
+
+#: Elm/SetupWizard.php:62
+msgid "Use Recommended Settings"
+msgstr "使用建議設定"
+
+#: Elm/SetupWizard.php:54
+msgid "To start logging errors you'll need to make a few changes to the WordPress configuration."
+msgstr "如需開始記錄錯誤，網站管理員必須為 WordPress 網站組態進行若干變更。"
+
+#: Elm/SetupWizard.php:48
+msgid "Error Log Monitor setup"
+msgstr "Error Log Monitor 設定"
+
+#: Elm/DashboardWidget.php:154 Elm/DashboardWidget.php:1146
+msgctxt "a link to Pro version information"
+msgid "Details"
+msgstr "詳細資料"
+
+#: Elm/DashboardWidget.php:1129
+msgctxt "Freemius account link"
+msgid "Account"
+msgstr "Freemius 帳號"
+
+#: Elm/DashboardWidget.php:1154
+msgid "Upgrade to Pro"
+msgstr "升級至 Pro 版"
+
+#: Elm/DashboardWidget.php:984
+msgctxt "the heading of the upgrade-to-pro section in widget settings"
+msgid "Pro Version"
+msgstr "Pro 版"
+
+#: Elm/DashboardWidget.php:814
+msgid "How often to check the log for new messages:"
+msgstr "檢查新訊息記錄的頻率:"
+
+#: Elm/DashboardWidget.php:803
+msgid "Every 5 minutes"
+msgstr "每 5 分鐘"
+
+#: Elm/DashboardWidget.php:802
+msgid "Every 2 minutes"
+msgstr "每 2 分鐘"
+
+#: Elm/DashboardWidget.php:640
+msgid "Sorry, you are not allowed to change these settings."
+msgstr "很抱歉，目前的登入身分沒有變更這些設定的權限。"
+
+#: Elm/DashboardWidget.php:607
+msgid ""
+"By default, only fatal errors and warnings will be logged. To also log notices\n"
+"                and other messages, enable the <code>WP_DEBUG</code> option by adding this code:"
+msgstr "依照預設，系統僅會記錄嚴重錯誤及警告；如需記錄通知及其他訊息，請新增以下程式碼以啟用 <code>WP_DEBUG</code> 設定:"
+
+#: Elm/DashboardWidget.php:466
+msgctxt "show hidden stack trace items"
+msgid "Show %d more"
+msgstr "再顯示 %d 項"
+
+#: Elm/DashboardWidget.php:410
+msgid "Stack Trace"
+msgstr "堆疊追蹤"
+
+#: Elm/DashboardWidget.php:166
+msgctxt "a link that hides the \"Upgrade to Pro\" notice"
+msgid "Hide"
+msgstr "隱藏"
+
+#: Elm/DashboardWidget.php:160
+msgid "View Pricing"
+msgstr "檢視授權價格"
+
+#: Elm/DashboardWidget.php:148
+msgid "Upgrade to Pro for more detailed logs and a summary view."
+msgstr "升級至 Pro 版便可獲得更詳細的記錄及摘要檢視。"
+
+#: Elm/DashboardWidget.php:794
+msgctxt "tooltip for the email field"
+msgid "You can enter multiple emails by separating them with a comma."
+msgstr "請輸入逗號分隔多個電子郵件地址。"
+
+#: Elm/DashboardWidget.php:954
+msgctxt "action link"
+msgid "Unignore"
+msgstr "取消忽略"
+
+#: Elm/DashboardWidget.php:933
+msgid "There are no ignored messages."
+msgstr "目前沒有忽略的訊息。"
+
+#: Elm/DashboardWidget.php:926
+msgid "Ignored messages"
+msgstr "<b>忽略的訊息</b>"
+
+#: Elm/DashboardWidget.php:903
+msgid "Email notification filter"
+msgstr "電子郵件通知篩選條件"
+
+#: Elm/DashboardWidget.php:881
+msgid "Dashboard widget filter"
+msgstr "控制台小工具篩選條件"
+
+#: Elm/DashboardWidget.php:878
+msgctxt "configuration section heading"
+msgid "Filters"
+msgstr "篩選條件"
+
+#: Elm/DashboardWidget.php:777
+msgctxt "configuration section heading"
+msgid "Notifications"
+msgstr "通知"
+
+#: Elm/DashboardWidget.php:762
+msgctxt "widget layout option"
+msgid "List"
+msgstr "列表"
+
+#: Elm/DashboardWidget.php:761
+msgctxt "widget layout option"
+msgid "Table"
+msgstr "表格"
+
+#: Elm/DashboardWidget.php:759
+msgid "Widget layout:"
+msgstr "小工具版面配置:"
+
+#: Elm/DashboardWidget.php:735
+msgctxt "configuration section heading"
+msgid "General"
+msgstr "一般"
+
+#: Elm/DashboardWidget.php:272
+msgctxt "action link"
+msgid "Ignore"
+msgstr "忽略"
+
+#: Elm/DashboardWidget.php:268
+msgid "Ignored messages stay in the log file but they don't show up in the widget and don't generate email notifications."
+msgstr "忽略的訊息仍會存在於記錄檔中，但不會顯示於小工具內，也不會產生電子郵件通知。"
+
+#: Elm/SeverityFilter.php:117
+msgid "%d entry was filtered out."
+msgid_plural "%d entries were filtered out."
+msgstr[0] "已篩選掉 %d 個項目。"
+
+#: Elm/DashboardWidget.php:1024
+msgctxt "error type"
+msgid "Other"
+msgstr "其他"
+
+#: Elm/DashboardWidget.php:917
+msgid "Notify only about selected types"
+msgstr "僅針對選取的類型進行通知"
+
+#: Elm/DashboardWidget.php:910
+msgid "Same as the dashboard widget"
+msgstr "與控制台小工具相同"
+
+#: Elm/DashboardWidget.php:895
+msgid "Show only selected types"
+msgstr "僅顯示選取的類型"
+
+#: Elm/DashboardWidget.php:888
+msgid "Show all messages"
+msgstr "顯示全部訊息"
+
+#: Elm/DashboardWidget.php:201
+msgid "There are no recent log entries that match the filter settings."
+msgstr "最近沒有符合篩選條件設定的記錄項目。"
+
+#. translators: 1: Site URL, 2: Log file name, 3: Log file size
+#: Elm/Plugin.php:558
+msgid ""
+"Site URL: %1$s\n"
+"Log file: %2$s\n"
+"Size: %3$s\n"
+msgstr ""
+"網站網址：%1$s\n"
+"記錄檔路徑：%2$s\n"
+"記錄檔大小：%3$s\n"
+
+#. translators: 1: File size limit, 2: Site URL
+#: Elm/Plugin.php:552
+msgid "PHP error log file size has exceeded %1$s on %2$s"
+msgstr "在 %2$s 上的 PHP 錯誤記錄檔，檔案大小已超過 %1$s"
+
+#: Elm/DashboardWidget.php:850
+msgid "Send an email notification when the log file size exceeds this limit:"
+msgstr "當記錄檔大小超過限制時，就傳送電子郵件通知。該項限制為:"
+
+#: Elm/DashboardWidget.php:623
+msgid "For reference, the full path of the WordPress directory is:<br>%s"
+msgstr "目前 WordPress 目錄的完整路徑如下 (僅供參考):<br>%s"
+
+#. translators: Dashboard widget name
+#: Elm/DashboardWidget.php:65
+msgid "PHP Error Log"
+msgstr "PHP 錯誤記錄"
+
+#. Author URI of the plugin
+msgid "http://w-shadow.com/"
+msgstr "https://w-shadow.com/"
+
+#. Author of the plugin
+msgid "Janis Elsts"
+msgstr "Janis Elsts"
+
+#. Description of the plugin
+msgid "Adds a Dashboard widget that displays the last X lines from your PHP error log, and can also send you email notifications about newly logged errors."
+msgstr "這個外掛會在 WordPress 控制台新增一個能從 PHP 錯誤檔中顯示最新記錄的小工具，並能將最新的記錄以電子郵件的方式傳送給你。"
+
+#. Plugin URI of the plugin
+msgid "http://w-shadow.com/blog/2012/07/25/error-log-monitor-plugin/"
+msgstr "https://w-shadow.com/blog/2012/07/25/error-log-monitor-plugin/"
+
+#. Plugin Name of the plugin
+msgid "Error Log Monitor"
+msgstr "Error Log Monitor"
+
+#: scb/AdminPage.php:514
+msgid "Settings"
+msgstr "設定"
+
+#: scb/AdminPage.php:257
+msgid "Settings <strong>saved</strong>."
+msgstr "設定<strong>已儲存</strong>。"
+
+#. translators: 1: Site URL, 2: Number of log entries, 3: Log file name
+#: Elm/Plugin.php:230
+msgid ""
+"New PHP errors have been logged on %1$s\n"
+"Here are the last %2$d entries from %3$s:\n"
+"\n"
+msgstr ""
+"在 %1$s 上所產生的 PHP 錯誤已記錄在案。\n"
+"在 %3$s 中記錄了最新的 %2$d 個項目：\n"
+"\n"
+
+#: Elm/Plugin.php:174
+msgid "PHP errors logged on %s"
+msgstr "在 %s 上所產生的 PHP 錯誤"
+
+#: Elm/ReverseLineIterator.php:80
+msgid "Could not open the log file \"%s\"."
+msgstr "無法開啟記錄檔 %s。"
+
+#: Elm/PhpErrorLog.php:54
+msgid "The log file <code>%s</code> does not exist or is inaccessible."
+msgstr "記錄檔 <code>%s</code> 不存在或無法存取。"
+
+#: Elm/PhpErrorLog.php:46
+msgid "The log file <code>%s</code> exists, but is not accessible. Please check file permissions."
+msgstr "記錄檔 <code>%s</code> 存在，但無法存取。請檢查檔案權限。"
+
+#: Elm/PhpErrorLog.php:37
+msgid "The current error_log value <code>%s</code> is not supported. Please change it to an absolute path."
+msgstr "目前並不支援 error_log 的值 <code>%s</code>，請將其變更為絕對路徑。"
+
+#: Elm/PhpErrorLog.php:31
+msgid "Error log filename is not set."
+msgstr "錯誤記錄檔檔名尚未設定。"
+
+#: Elm/PhpErrorLog.php:26
+msgid "Error logging is disabled."
+msgstr "錯誤記錄已停用。"
+
+#: Elm/DashboardWidget.php:809
+msgid "Weekly"
+msgstr "每週"
+
+#: Elm/DashboardWidget.php:808
+msgid "Daily"
+msgstr "每日"
+
+#: Elm/DashboardWidget.php:807
+msgid "Hourly"
+msgstr "每小時"
+
+#: Elm/DashboardWidget.php:806
+msgid "Every 30 minutes"
+msgstr "每 30 分鐘"
+
+#: Elm/DashboardWidget.php:805
+msgid "Every 15 minutes"
+msgstr "每 15 分鐘"
+
+#: Elm/DashboardWidget.php:804
+msgid "Every 10 minutes"
+msgstr "每 10 分鐘"
+
+#: Elm/DashboardWidget.php:830
+msgid "How often to send email (max):"
+msgstr "傳送電子郵件的頻率 (最長)"
+
+#: Elm/DashboardWidget.php:792
+msgid "Periodically email logged errors to:"
+msgstr "接收定期錯誤記錄的電子郵件地址:"
+
+#: Elm/DashboardWidget.php:756
+msgid "Reverse line order (most recent on top)"
+msgstr "反向排序，最新的在最上方"
+
+#: Elm/DashboardWidget.php:749
+msgid "Strip WordPress root directory from log messages"
+msgstr "在記錄訊息中排除 WordPress 根目錄"
+
+#: Elm/DashboardWidget.php:740
+msgid "Number of entries to show:"
+msgstr "錯誤項目顯示數量:"
+
+#. translators: Links to English-language articles about configuring error
+#. logging.
+#: Elm/DashboardWidget.php:631
+msgid "See also: %s"
+msgstr "另請參閱〈%s〉"
+
+#: Elm/DashboardWidget.php:595
+msgid ""
+"To enable error logging, create an empty file named \"php-errors.log\".\n"
+"\t\t\tPlace it in a directory that is not publicly accessible (preferably outside\n"
+"\t\t\tyour web root) and ensure it is writable by the web server.\n"
+"\t\t\tThen add the following code to <code>wp-config.php</code>:"
+msgstr "如需啟用錯誤記錄，請先建立一個檔案名稱為 <code>php-errors.log</code> 的空白檔案。請將該檔案上傳至無法公開存取的目錄 (最好在網站的根目錄之外)，並確保該目錄可在網頁伺服器上進行寫入，然後將以下語法加入 <code>wp-config.php</code> 檔案中:"
+
+#: Elm/DashboardWidget.php:132
+msgid "Clear Log"
+msgstr "清除記錄"
+
+#: Elm/DashboardWidget.php:131
+msgid "Are you sure you want to clear the error log?"
+msgstr "確定要清除錯誤記錄嗎？"
+
+#. translators: 1: Log file name, 2: Log file size
+#: Elm/DashboardWidget.php:122
+msgid "Log file: %1$s (%2$s)"
+msgstr "記錄檔: %1$s (%2$s)"
+
+#: Elm/DashboardWidget.php:206
+msgid "The log file is empty."
+msgstr "目前記錄檔中並無任何記錄。"
+
+#: Elm/DashboardWidget.php:113
+msgid "Log cleared."
+msgstr "記錄已清除。"

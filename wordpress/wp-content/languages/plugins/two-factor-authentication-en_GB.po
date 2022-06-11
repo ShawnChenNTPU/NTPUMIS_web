@@ -1,0 +1,423 @@
+# Translation of Plugins - Two Factor Authentication - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Two Factor Authentication - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-20 16:19:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Two Factor Authentication - Stable (latest release)\n"
+
+#: simba-tfa/simba-tfa.php:122
+msgid "2FA"
+msgstr "2FA"
+
+#: simba-tfa/providers/totp-hotp/loader.php:456
+msgid "an event based algorithm"
+msgstr "an event based algorithm"
+
+#: simba-tfa/providers/totp-hotp/loader.php:456
+msgid "a time based algorithm"
+msgstr "a time based algorithm"
+
+#: simba-tfa/providers/totp-hotp/loader.php:456
+msgid "You are currently using %s, %s"
+msgstr "You are currently using %s, %s"
+
+#: simba-tfa/providers/totp-hotp/loader.php:781
+msgid "There are no emergency codes left. You will need to reset your private key."
+msgstr "There are no emergency codes left. You will need to reset your private key."
+
+#. Author URI of the plugin
+msgid "https://www.simbahosting.co.uk"
+msgstr "https://www.simbahosting.co.uk"
+
+#. Description of the plugin
+msgid "Secure your WordPress login forms with two factor authentication - including WooCommerce login forms"
+msgstr "Secure your WordPress login forms with two factor authentication - including WooCommerce login forms"
+
+#. Plugin URI of the plugin
+msgid "https://www.simbahosting.co.uk/s3/product/two-factor-authentication/"
+msgstr "https://www.simbahosting.co.uk/s3/product/two-factor-authentication/"
+
+#: simba-tfa/templates/settings-intro-notices.php:26
+msgid "You should also bookmark the FAQs, which explain how to de-activate the plugin even if you cannot log in."
+msgstr "You should also bookmark the FAQs, which explain how to deactivate the plugin even if you cannot log in."
+
+#: simba-tfa/templates/settings-intro-notices.php:4
+msgid "Nothing you change here will have any effect on other users."
+msgstr "Nothing you change here will have any effect on other users."
+
+#: simba-tfa/templates/settings-intro-notices.php:4
+msgid "These are your personal settings."
+msgstr "These are your personal settings."
+
+#: simba-tfa/providers/totp-hotp/loader.php:564
+msgid "Click here and re-scan the QR-Code"
+msgstr "Click here and rescan the QR-Code"
+
+#: simba-tfa/providers/totp-hotp/loader.php:562
+msgid "Please re-sync or you might not be able to log in if you generate more OTPs without logging in."
+msgstr "Please resync or you might not be able to log in if you generate more OTPs without logging in."
+
+#: simba-tfa/providers/totp-hotp/loader.php:560
+msgid "You need to resync your device for Two Factor Authentication since the OTP you last used is many steps ahead of the server."
+msgstr "You need to resync your device for Two Factor Authentication since the OTP you last used is many steps ahead of the server."
+
+#: simba-tfa/providers/totp-hotp/loader.php:558
+msgid "Two Factor Authentication re-sync needed"
+msgstr "Two Factor Authentication resync needed"
+
+#: simba-tfa/simba-tfa.php:1009
+msgid "(check your OTP app to get this password)"
+msgstr "(check your OTP app to get this password)"
+
+#: simba-tfa/simba-tfa.php:1008
+msgid "One Time Password (i.e. 2FA)"
+msgstr "One Time Password (i.e. 2FA)"
+
+#: simba-tfa/simba-tfa.php:1007
+msgid "You have to enter a username first."
+msgstr "You have to enter a username first."
+
+#: simba-tfa/simba-tfa.php:1006
+msgid "Click to enter One Time Password"
+msgstr "Click to enter One Time Password"
+
+#: simba-tfa/providers/totp-hotp/loader.php:292
+msgid "Your counter on the server is currently on"
+msgstr "Your counter on the server is currently on"
+
+#: simba-tfa/providers/totp-hotp/loader.php:286
+msgid "Choose which algorithm for One Time Passwords you want to use."
+msgstr "Choose which algorithm for One Time Passwords you want to use."
+
+#: simba-tfa/providers/totp-hotp/loader.php:277
+msgid "Advanced settings"
+msgstr "Advanced settings"
+
+#: simba-tfa/providers/totp-hotp/loader.php:241
+msgid "(update)"
+msgstr "(update)"
+
+#: simba-tfa/providers/totp-hotp/loader.php:480
+msgid "One-time emergency codes are a feature of the Premium version of this plugin."
+msgstr "One-time emergency codes are a feature of the Premium version of this plugin."
+
+#: simba-tfa/providers/totp-hotp/loader.php:416
+#: simba-tfa/providers/totp-hotp/loader.php:427
+msgid "Current one-time password"
+msgstr "Current one-time password"
+
+#: simba-tfa/providers/totp-hotp/loader.php:408
+msgid "Current codes (login: %s)"
+msgstr "Current codes (login: %s)"
+
+#: simba-tfa/providers/totp-hotp/loader.php:515
+msgid "Private key:"
+msgstr "Private key:"
+
+#: simba-tfa/providers/totp-hotp/loader.php:512
+msgid "Private key (base 32 - used by Google Authenticator and Authy):"
+msgstr "Private key (base 32 - used by Google Authenticator and Authy):"
+
+#: simba-tfa/providers/totp-hotp/loader.php:139
+msgid "Updating..."
+msgstr "Updating..."
+
+#: simba-tfa/providers/totp-hotp/loader.php:375
+#: simba-tfa/providers/totp-hotp/loader.php:468
+msgid "Reset private key"
+msgstr "Reset private key"
+
+#: simba-tfa/providers/totp-hotp/loader.php:375
+msgid "Warning: if you reset this key you will have to update your apps with the new one. Are you sure you want this?"
+msgstr "Warning: if you reset this key you will have to update your apps with the new one. Are you sure you want this?"
+
+#: two-factor-login.php:95
+msgid "User settings"
+msgstr "User settings"
+
+#: two-factor-login.php:86 two-factor-login.php:90
+msgid "Plugin settings"
+msgstr "Plugin settings"
+
+#: two-factor-login.php:110
+msgid "Two Factor Auth"
+msgstr "Two Factor Auth"
+
+#: simba-tfa/simba-tfa.php:858
+msgid "Do require 2FA over XMLRPC (best option if you do not use XMLRPC or are unsure)"
+msgstr "Do require 2FA over XMLRPC (best option if you do not use XMLRPC or are unsure)"
+
+#: simba-tfa/simba-tfa.php:857
+msgid "Do not require 2FA over XMLRPC (best option if you must use XMLRPC and your client does not support 2FA)"
+msgstr "Do not require 2FA over XMLRPC (best option if you must use XMLRPC and your client does not support 2FA)"
+
+#: simba-tfa/simba-tfa.php:832
+msgid "Multisite Super Admin"
+msgstr "Multisite Super Admin"
+
+#: simba-tfa/providers/totp-hotp/loader.php:256
+#: simba-tfa/providers/totp-hotp/loader.php:607
+msgid "HOTP (event based)"
+msgstr "HOTP (event based)"
+
+#: simba-tfa/providers/totp-hotp/loader.php:255
+#: simba-tfa/providers/totp-hotp/loader.php:607
+msgid "TOTP (time based - most common algorithm; used by Google Authenticator)"
+msgstr "TOTP (time based - most common algorithm; used by Google Authenticator)"
+
+#: simba-tfa/simba-tfa.php:147 simba-tfa/simba-tfa.php:793
+msgid "Disabled"
+msgstr "Disabled"
+
+#: simba-tfa/simba-tfa.php:793
+msgid "Disable two-factor authentication"
+msgstr "Disable two-factor authentication"
+
+#: simba-tfa/simba-tfa.php:144 simba-tfa/simba-tfa.php:783
+msgid "Enabled"
+msgstr "Enabled"
+
+#: simba-tfa/simba-tfa.php:783
+msgid "Enable two-factor authentication"
+msgstr "Enable two-factor authentication"
+
+#: simba-tfa/simba-tfa.php:780
+msgid "N.B. This site is configured to forbid you to log in if you disable two-factor authentication after your account is %d days old"
+msgstr "N.B. This site is configured to forbid you to log in if you disable two-factor authentication after your account is %d days old"
+
+#: simba-tfa/includes/login-form-integrations.php:111
+#: simba-tfa/simba-tfa.php:661
+msgid "The one-time password (TFA code) you entered was incorrect."
+msgstr "The one-time password (TFA code) you entered was incorrect."
+
+#: two-factor-login.php:153
+msgid "The Two Factor Authentication plugin requires either the PHP openssl (preferred) or mcrypt module to be installed. Please ask your web hosting company to install one of them."
+msgstr "The Two Factor Authentication plugin requires either the PHP openssl (preferred) or mcrypt module to be installed. Please ask your web hosting company to install one of them."
+
+#: two-factor-login.php:153
+msgid "PHP OpenSSL or mcrypt module required"
+msgstr "PHP OpenSSL or mcrypt module required"
+
+#: two-factor-login.php:146
+msgid "The Two Factor Authentication plugin requires PHP version %s or higher - your current version is only %s."
+msgstr "The Two Factor Authentication plugin requires PHP version %s or higher - your current version is only %s."
+
+#: two-factor-login.php:146
+msgid "Higher PHP version required"
+msgstr "Higher PHP version required"
+
+#: simba-tfa/templates/user-settings.php:36
+msgid "Activate two factor authentication"
+msgstr "Activate two factor authentication"
+
+#: simba-tfa/templates/user-settings.php:25
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: simba-tfa/templates/user-settings.php:20
+msgid "Settings"
+msgstr "Settings"
+
+#. Plugin Name of the plugin
+#: simba-tfa/templates/user-settings.php:20 two-factor-login.php:110
+#: two-factor-login.php:124 two-factor-login.php:125
+msgid "Two Factor Authentication"
+msgstr "Two Factor Authentication"
+
+#: simba-tfa/templates/shortcode-tfa-user-settings.php:6
+msgid "Two factor authentication is not available for your user."
+msgstr "Two factor authentication is not available for your user."
+
+#: simba-tfa/includes/tfa_frontend.php:180
+#: simba-tfa/providers/totp-hotp/loader.php:152
+#: simba-tfa/providers/totp-hotp/loader.php:174
+msgid "Response:"
+msgstr "Response:"
+
+#: simba-tfa/includes/tfa_frontend.php:176
+msgid "Saving..."
+msgstr "Saving..."
+
+#: simba-tfa/includes/tfa_frontend.php:175
+msgid "You have unsaved settings."
+msgstr "You have unsaved settings."
+
+#: simba-tfa/includes/tfa_frontend.php:131
+#: simba-tfa/includes/tfa_frontend.php:145
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: simba-tfa/includes/tfa_frontend.php:92
+msgid "an event based"
+msgstr "an event based"
+
+#: simba-tfa/includes/tfa_frontend.php:92
+msgid "a time based"
+msgstr "a time based"
+
+#: simba-tfa/simba-tfa.php:935
+msgid "You are attempting to log in to an account that has two-factor authentication enabled; this requires you to also have two-factor authentication enabled on the account whose credentials you are using."
+msgstr "You are attempting to log in to an account that has two-factor authentication enabled; this requires you to also have two-factor authentication enabled on the account whose credentials you are using."
+
+#: simba-tfa/simba-tfa.php:921
+msgid "The site owner has forbidden you to login without two-factor authentication. Please contact the site owner to re-gain access."
+msgstr "The site owner has forbidden you to log in without two-factor authentication. Please contact the site owner to re-gain access."
+
+#: simba-tfa/includes/login-form-integrations.php:111
+#: simba-tfa/simba-tfa.php:661 simba-tfa/simba-tfa.php:904
+#: simba-tfa/simba-tfa.php:921 simba-tfa/simba-tfa.php:935
+#: simba-tfa/simba-tfa.php:1049
+msgid "Error:"
+msgstr "Error:"
+
+#: simba-tfa/includes/tfa_frontend.php:122
+msgid "No emergency codes left. Sorry."
+msgstr "No emergency codes left. Sorry."
+
+#: simba-tfa/templates/admin-settings.php:182
+msgid "Translations"
+msgstr "Translations"
+
+#: simba-tfa/templates/admin-settings.php:176
+msgid "access to our personal support desk for 12 months."
+msgstr "access to our personal support desk for 12 months."
+
+#: simba-tfa/templates/admin-settings.php:176
+msgid "Personal support"
+msgstr "Personal support"
+
+#: simba-tfa/templates/admin-settings.php:172
+msgid "flexible shortcodes allowing you to design your front-end settings page for your users exactly as you wish."
+msgstr "flexible shortcodes allowing you to design your front end settings page for your users exactly as you wish."
+
+#: simba-tfa/templates/admin-settings.php:172
+msgid "More shortcodes"
+msgstr "More shortcodes"
+
+#: simba-tfa/templates/admin-settings.php:171
+msgid "enable, disable or see TFA codes for all your users from one central location."
+msgstr "enable, disable or see TFA codes for all your users from one central location."
+
+#: simba-tfa/templates/admin-settings.php:171
+msgid "Manage all users centrally"
+msgstr "Manage all users centrally"
+
+#: simba-tfa/templates/admin-settings.php:168
+msgid "provide your users with one-time codes to use in case they lose their device."
+msgstr "provide your users with one-time codes to use in case they lose their device."
+
+#: simba-tfa/providers/totp-hotp/loader.php:478
+#: simba-tfa/templates/admin-settings.php:168
+msgid "Emergency codes"
+msgstr "Emergency codes"
+
+#: simba-tfa/templates/admin-settings.php:164
+msgid "It comes with these extra features:"
+msgstr "It comes with these extra features:"
+
+#: simba-tfa/templates/admin-settings.php:164
+msgid "If you want to say 'thank you' or help this plugin's development, or get extra features, then please take a look at the premium version of this plugin."
+msgstr "If you want to say 'thank you' or help this plugin's development, or get extra features, then please take a look at the premium version of this plugin."
+
+#: simba-tfa/templates/admin-settings.php:154
+msgid "Another way to do that is by using a user-switching plugin like this one."
+msgstr "Another way to do that is by using a user-switching plugin like this one."
+
+#: simba-tfa/templates/admin-settings.php:152
+msgid "The Premium version of this plugin allows you to see and reset the TFA settings of other users."
+msgstr "The Premium version of this plugin allows you to see and reset the TFA settings of other users."
+
+#: simba-tfa/templates/admin-settings.php:146
+msgid "Users' settings"
+msgstr "Users' settings"
+
+#: simba-tfa/templates/admin-settings.php:122
+msgid "Your users can change this in their own settings if they want."
+msgstr "Your users can change this in their own settings if they want."
+
+#: simba-tfa/templates/admin-settings.php:121
+msgid "Default algorithm"
+msgstr "Default algorithm"
+
+#: simba-tfa/templates/admin-settings.php:103
+msgid "Unfortunately, XMLRPC also provides a way for attackers to perform actions on your WordPress site, using only a password (i.e. without a two-factor password). More unfortunately, authors of legitimate programmes using XMLRPC have not yet added two-factor support to their code."
+msgstr "Unfortunately, XMLRPC also provides a way for attackers to perform actions on your WordPress site, using only a password (i.e. without a two-factor password). More unfortunately, authors of legitimate programmes using XMLRPC have not yet added two-factor support to their code."
+
+#: simba-tfa/templates/admin-settings.php:100
+msgid "XMLRPC is a feature within WordPress allowing other computers to talk to your WordPress install. For example, it could be used by an app on your tablet that allows you to blog directly from the app (instead of needing the WordPress dashboard)."
+msgstr "XMLRPC is a feature within WordPress allowing other computers to talk to your WordPress install. For example, it could be used by an app on your tablet that allows you to blog directly from the app (instead of needing the WordPress dashboard)."
+
+#: simba-tfa/templates/admin-settings.php:96
+msgid "XMLRPC requests"
+msgstr "XMLRPC requests"
+
+#: simba-tfa/templates/admin-settings.php:71
+msgid "Requiring users to use two-factor authentication is a feature of the Premium version of this plugin."
+msgstr "Requiring users to use two-factor authentication is a feature of the Premium version of this plugin."
+
+#: simba-tfa/templates/admin-settings.php:67
+msgid "Make two factor authentication compulsory"
+msgstr "Make two factor authentication compulsory"
+
+#: simba-tfa/templates/admin-settings.php:58
+msgid "Choose which user roles will have two factor authentication available."
+msgstr "Choose which user roles will have two factor authentication available."
+
+#: simba-tfa/templates/admin-settings.php:57
+msgid "User roles"
+msgstr "User roles"
+
+#: simba-tfa/templates/admin-settings.php:45
+msgid "N.B. These two-factor settings apply to your entire WordPress network. (i.e. They are not localised to one particular site)."
+msgstr "N.B. These two-factor settings apply to your entire WordPress network. (i.e. They are not localised to one particular site)."
+
+#: simba-tfa/templates/admin-settings.php:33
+msgid "Two factor authentication is currently disabled via the TWO_FACTOR_DISABLE constant (which is mostly likely to be defined in your wp-config.php)"
+msgstr "Two factor authentication is currently disabled via the TWO_FACTOR_DISABLE constant (which is mostly likely to be defined in your wp-config.php)"
+
+#: simba-tfa/templates/admin-settings.php:31
+msgid "Two Factor Authentication currently disabled"
+msgstr "Two Factor Authentication currently disabled"
+
+#: simba-tfa/templates/admin-settings.php:24
+msgid "Lead developer's homepage"
+msgstr "Lead developer's home page"
+
+#: simba-tfa/templates/admin-settings.php:22
+msgid "Twitter"
+msgstr "Twitter"
+
+#: simba-tfa/templates/admin-settings.php:21
+msgid "More premium plugins"
+msgstr "More premium plugins"
+
+#: simba-tfa/templates/admin-settings.php:20
+msgid "WordPress backups"
+msgstr "WordPress backups"
+
+#: simba-tfa/templates/admin-settings.php:19
+msgid "More free plugins"
+msgstr "More free plugins"
+
+#: simba-tfa/templates/admin-settings.php:18
+msgid "Support"
+msgstr "Support"
+
+#: simba-tfa/templates/admin-settings.php:14
+#: simba-tfa/templates/admin-settings.php:162
+msgid "Premium version"
+msgstr "Premium version"
+
+#: simba-tfa/templates/admin-settings.php:9
+msgid "Two Factor Authentication (Version: %s) - Admin Settings"
+msgstr "Two Factor Authentication (Version: %s) - Admin Settings"
+
+#: simba-tfa/templates/admin-settings.php:106
+msgid "i.e. XMLRPC requests coming in to WordPress (whether from a legitimate app, or from an attacker) can only be verified using the password - not with a two-factor code. As a result, there not be an ideal option to pick below. You may have to choose between the convenience of using your apps, or the security of two factor authentication."
+msgstr "i.e. XMLRPC requests coming in to WordPress (whether from a legitimate app, or from an attacker) can only be verified using the password - not with a two-factor code. As a result, there not be an ideal option to pick below. You may have to choose between the convenience of using your apps, or the security of two factor authentication."

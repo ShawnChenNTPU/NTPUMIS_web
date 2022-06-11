@@ -1,0 +1,34 @@
+[28-Sep-2021 11:57:39 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[28-Sep-2021 11:57:39 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[28-Sep-2021 11:57:40 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[28-Sep-2021 11:57:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[28-Sep-2021 12:58:54 UTC] PHP Notice:  Undefined index: bizsmart-disable-inner-banner in D:\xampp\htdocs\wordpress\wp-content\themes\bizsmart\classes\meta-fields\class-meta-fields.php on line 380
+[28-Sep-2021 12:58:54 UTC] PHP Notice:  Undefined index: bizsmart-disable-footer-widget in D:\xampp\htdocs\wordpress\wp-content\themes\bizsmart\classes\meta-fields\class-meta-fields.php on line 380
+[28-Sep-2021 12:58:55 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[28-Sep-2021 12:58:55 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[28-Sep-2021 12:58:55 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[28-Sep-2021 12:58:55 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[27-Oct-2021 04:15:53 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[27-Oct-2021 04:15:53 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[27-Oct-2021 04:15:53 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[27-Oct-2021 04:15:53 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[03-Nov-2021 07:31:50 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 07:31:50 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 07:31:52 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[03-Nov-2021 07:31:52 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[03-Nov-2021 07:32:45 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 07:32:46 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 07:32:46 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[03-Nov-2021 07:32:46 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[03-Nov-2021 07:32:55 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 07:32:56 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 07:32:57 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[03-Nov-2021 07:32:57 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[03-Nov-2021 08:25:50 UTC] PHP Notice:  Undefined index: bizsmart-disable-inner-banner in D:\xampp\htdocs\wordpress\wp-content\themes\bizsmart\classes\meta-fields\class-meta-fields.php on line 380
+[03-Nov-2021 08:25:50 UTC] PHP Notice:  Undefined index: bizsmart-disable-footer-widget in D:\xampp\htdocs\wordpress\wp-content\themes\bizsmart\classes\meta-fields\class-meta-fields.php on line 380
+[03-Nov-2021 08:25:51 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 08:25:51 UTC] PHP Deprecated:  從 5.8.0 版開始，block_categories <strong>已淘汰不用</strong>，請改用 block_categories_all。 in D:\xampp\htdocs\wordpress\wp-includes\functions.php on line 5586
+[03-Nov-2021 08:25:51 UTC] PHP Notice:  Array to string conversion in D:\xampp\htdocs\wordpress\wp-includes\script-loader.php on line 2763
+[03-Nov-2021 08:25:51 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in D:\xampp\htdocs\wordpress\wp-includes\class.wp-dependencies.php on line 166
+[10-Nov-2021 02:08:42 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-includes\sodium_compat\lib\namespaced.php on line 3
+[10-Nov-2021 08:40:24 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\wordpress\wp-includes\sodium_compat\lib\namespaced.php on line 3

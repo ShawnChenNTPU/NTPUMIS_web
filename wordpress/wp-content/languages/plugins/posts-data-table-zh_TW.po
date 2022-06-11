@@ -1,0 +1,357 @@
+# Translation of Plugins - Posts Table with Search &amp; Sort - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Posts Table with Search &amp; Sort - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-20 18:47:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Posts Table with Search &amp; Sort - Stable (latest release)\n"
+
+#: src/Admin/Settings_Page.php:419
+msgid "You can override these settings for individual tables by adding options to the [posts_table] shortcode. See the %1$sKnowledge Base%2$s for details."
+msgstr "個別表格的 [posts_table] 短代碼中的相關選項值會覆寫這裡的設定。請參考%1$s知識庫%2$s以進一步了解相關資訊。"
+
+#: src/Admin/Settings_Page.php:405
+msgid "Post tables list all published posts by default. To restrict posts by category, tag, author, etc. add the %1$scorresponding option%2$s to the [posts_table] shortcode."
+msgstr "內容表格預設會顯示全部已發佈內容。如需依據分類、標籤、作者等條件篩選內容，可以在短代碼 [posts_table] 中設定%1$s相關選項值%2$s。"
+
+#: src/Admin/Settings_Page.php:146
+msgid "The columns displayed in your table. Enter a comma-separated list. "
+msgstr "請以逗號分隔要顯示在內容表格的欄位。"
+
+#: lib/Admin/Settings_API_Helper.php:225
+msgid "Size"
+msgstr "尺寸"
+
+#. Author of the plugin
+msgid "Barn2 Plugins"
+msgstr "Barn2 Plugins"
+
+#. Description of the plugin
+msgid "List your posts in an instantly searchable & sortable table."
+msgstr "建立可即時搜尋及排序的內容清單。"
+
+#: src/Simple_Posts_Table.php:74
+msgid "Image"
+msgstr "圖片"
+
+#: lib/Util.php:39
+msgid "Read more"
+msgstr "進一步了解"
+
+#: src/Admin/Admin_Controller.php:44
+msgid "Settings"
+msgstr "設定"
+
+#: src/Admin/Settings_Page.php:393
+msgid "Pro version only"
+msgstr "僅供 Pro 版使用"
+
+#: src/Admin/Settings_Page.php:374
+msgid "Show a reset button above the table"
+msgstr "在表格上方顯示 [重設] 按鈕"
+
+#: src/Admin/Settings_Page.php:371
+msgid "Reset button"
+msgstr "[重設] 按鈕"
+
+#: src/Admin/Settings_Page.php:366
+msgid "Prev|Next|First|Last + Numbers"
+msgstr "上一頁 | 下一頁 | 第一頁 | 最後一頁 + 頁碼"
+
+#: src/Admin/Settings_Page.php:365
+msgid "Prev|Next|First|Last"
+msgstr "上一頁 | 下一頁 | 第一頁 | 最後一頁"
+
+#: src/Admin/Settings_Page.php:364
+msgid "Prev|Next + Numbers"
+msgstr "上一頁 | 下一頁 + 頁碼"
+
+#: src/Admin/Settings_Page.php:363
+msgid "Prev|Next"
+msgstr "上一頁 | 下一頁"
+
+#: src/Admin/Settings_Page.php:362
+msgid "Numbers only"
+msgstr "僅頁碼"
+
+#: src/Admin/Settings_Page.php:358
+msgid "Pagination type"
+msgstr "分頁類型"
+
+#: src/Admin/Settings_Page.php:354
+msgid "The position of the paging buttons which scroll between results."
+msgstr "在搜尋結果間切換分頁的分頁按鈕。"
+
+#: src/Admin/Settings_Page.php:345
+msgid "Pagination buttons"
+msgstr "分頁按鈕"
+
+#: src/Admin/Settings_Page.php:341
+msgid "The position of the post totals, e.g. 'Showing 1 to 5 of 10 entries'."
+msgstr "設定內容總數的顯示位置。例如「目前顯示 1 到 5 項，總計 10 個項目」。"
+
+#: src/Admin/Settings_Page.php:332
+msgid "Totals"
+msgstr "內容總數"
+
+#: src/Admin/Settings_Page.php:320
+msgid "Search box"
+msgstr "搜尋框"
+
+#: src/Admin/Settings_Page.php:316
+msgid "The position of the 'Show [x] entries' dropdown list."
+msgstr "設定顯示項目數量下拉式選單的位置。"
+
+#: src/Admin/Settings_Page.php:314 src/Admin/Settings_Page.php:327
+#: src/Admin/Settings_Page.php:339 src/Admin/Settings_Page.php:352
+msgid "Hidden"
+msgstr "隱藏"
+
+#: src/Admin/Settings_Page.php:313 src/Admin/Settings_Page.php:326
+#: src/Admin/Settings_Page.php:338 src/Admin/Settings_Page.php:351
+msgid "Above and below table"
+msgstr "表格上方及下方"
+
+#: src/Admin/Settings_Page.php:312 src/Admin/Settings_Page.php:325
+#: src/Admin/Settings_Page.php:337 src/Admin/Settings_Page.php:350
+msgid "Below table"
+msgstr "表格下方"
+
+#: src/Admin/Settings_Page.php:311 src/Admin/Settings_Page.php:324
+#: src/Admin/Settings_Page.php:336 src/Admin/Settings_Page.php:349
+msgid "Above table"
+msgstr "表格上方"
+
+#: src/Admin/Settings_Page.php:307
+msgid "Page length"
+msgstr "頁面長度"
+
+#: src/Admin/Settings_Page.php:303
+msgid "Dropdown lists to filter the table by category, tag, attribute, or custom taxonomy. "
+msgstr "在下拉式選單中依據分類、標籤、屬性或自訂分類法篩選表格內容。"
+
+#: src/Admin/Settings_Page.php:301
+msgid "Custom"
+msgstr "自訂"
+
+#: src/Admin/Settings_Page.php:300
+msgid "Show based on columns in table"
+msgstr "顯示於表格欄位"
+
+#: src/Admin/Settings_Page.php:299
+msgid "Disabled"
+msgstr "停用"
+
+#: src/Admin/Settings_Page.php:295
+msgid "Search filters"
+msgstr "搜尋篩選條件"
+
+#: src/Admin/Settings_Page.php:290
+msgid "Table controls"
+msgstr "表格控制項"
+
+#: src/Admin/Settings_Page.php:278
+msgid "Descending (Z to A, 99 to 1)"
+msgstr "降冪 (Z 到 A，99 到 1)"
+
+#: src/Admin/Settings_Page.php:277
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr "升冪 (A 到 Z、1 到 99)"
+
+#: src/Admin/Settings_Page.php:276
+msgid "Automatic"
+msgstr "自動"
+
+#: src/Admin/Settings_Page.php:272
+msgid "Sort direction"
+msgstr "排序方向"
+
+#: src/Admin/Settings_Page.php:268
+msgid "The initial sort order applied to the table. "
+msgstr "設定預設表格內容排序順序。"
+
+#: src/Admin/Settings_Page.php:264
+msgid "Sort by"
+msgstr "排序依據"
+
+#: src/Admin/Settings_Page.php:259
+msgid "Sorting"
+msgstr "排序方式"
+
+#: src/Admin/Settings_Page.php:246
+msgid "Cache table contents to improve load time"
+msgstr "為表格內容進行快取以改進載入時間"
+
+#: src/Admin/Settings_Page.php:243
+msgid "Caching"
+msgstr "快取"
+
+#: src/Admin/Settings_Page.php:236
+msgid "The number of posts per page of results. Enter -1 to display all posts on one page."
+msgstr "設定每頁內容顯示數量。輸入 <code>-1</code> 代表在一頁中顯示全部內容。"
+
+#: src/Admin/Settings_Page.php:233
+msgid "Posts per page"
+msgstr "每頁內容顯示數量"
+
+#: src/Admin/Settings_Page.php:225
+msgid "The maximum (total) number of posts to display in one table."
+msgstr "同一表格內顯示的內容數量上限。"
+
+#: src/Admin/Settings_Page.php:222
+msgid "Post limit"
+msgstr "內容數量上限"
+
+#: src/Admin/Settings_Page.php:218
+msgid "Enable this if you have many posts or experience slow page load times. "
+msgstr "如果網站有數量龐大的內容或頁面載入時間遲滯，請啟用這項設定。"
+
+#: src/Admin/Settings_Page.php:217
+msgid "Load the posts one page at a time"
+msgstr "每次僅載入一頁的內容。"
+
+#: src/Admin/Settings_Page.php:214
+msgid "Lazy load"
+msgstr "延遲載入"
+
+#: src/Admin/Settings_Page.php:209
+msgid "Table loading"
+msgstr "表格載入方式"
+
+#: src/Admin/Settings_Page.php:198
+msgid "Display links to the single post page, category, tag, or term archive. "
+msgstr "顯示可前往單篇文章、分類彙整頁面、標籤彙整頁面或分類法詞彙彙整頁面的連結。"
+
+#: src/Admin/Settings_Page.php:196
+msgid "Links"
+msgstr "連結"
+
+#: src/Admin/Settings_Page.php:188
+msgid "Enter -1 to show the full excerpt."
+msgstr "輸入 <code>-1</code> 代表顯示完整內容摘要。"
+
+#: src/Admin/Settings_Page.php:184
+msgid "Excerpt length"
+msgstr "內容摘要長度"
+
+#: src/Admin/Settings_Page.php:176
+msgid "Enter -1 to show the full post content."
+msgstr "輸入 <code>-1</code> 代表顯示完整內容。"
+
+#: src/Admin/Settings_Page.php:175 src/Admin/Settings_Page.php:187
+msgid "words"
+msgstr "個字"
+
+#: src/Admin/Settings_Page.php:172
+msgid "Content length"
+msgstr "內容長度"
+
+#: src/Admin/Settings_Page.php:167
+msgid "Display shortcodes, HTML and other formatting inside the table content"
+msgstr "在表格內容中顯示短代碼、HTML 及其他格式"
+
+#: src/Admin/Settings_Page.php:164
+msgid "Shortcodes"
+msgstr "短代碼"
+
+#: src/Admin/Settings_Page.php:160
+msgid "Display featured images in a lightbox when opened"
+msgstr "開啟精選圖片以燈箱效果顯示"
+
+#: src/Admin/Settings_Page.php:158
+msgid "Image lightbox"
+msgstr "圖片燈箱效果"
+
+#: src/Admin/Settings_Page.php:153
+msgid "W x H in pixels. Sets the image size when using the 'image' column. "
+msgstr "寬度 x 高度，單位為 px。用於設定使用 image (圖片) 欄位時的圖片尺寸。"
+
+#: src/Admin/Settings_Page.php:151
+msgid "Image size"
+msgstr "圖片尺寸"
+
+#: src/Admin/Settings_Page.php:144
+msgid "Columns"
+msgstr "表格欄位"
+
+#: src/Admin/Settings_Page.php:138
+msgid "Table content"
+msgstr "表格內容"
+
+#: src/Admin/Settings_Page.php:126
+msgid "The default post type for your tables."
+msgstr "內容表格的預設內容類型。"
+
+#: src/Admin/Settings_Page.php:124
+msgid "Post type"
+msgstr "內容類型"
+
+#: src/Admin/Settings_Page.php:118
+msgid "Posts selection"
+msgstr "內容選取方式"
+
+#: src/Admin/Settings_Page.php:90
+msgid "Save Changes"
+msgstr "儲存設定"
+
+#: src/Admin/Settings_Page.php:80
+msgid "Posts Table with Search and Sort"
+msgstr "Posts Table With Search &amp; Sort 設定"
+
+#: src/Admin/Settings_Page.php:67 src/Admin/Settings_Page.php:68
+msgid "Posts Table With Search &amp; Sort"
+msgstr "Posts Table With Search &amp; Sort"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/posts-data-table/"
+msgstr "https://tw.wordpress.org/plugins/posts-data-table/"
+
+#: src/Simple_Posts_Table.php:89
+msgid "Tags"
+msgstr "標籤"
+
+#: src/Admin/Admin_Controller.php:55
+msgid "Pro Version"
+msgstr "Pro 版"
+
+#. Plugin Name of the plugin
+msgid "Posts Table with Search & Sort"
+msgstr "Posts Table with Search & Sort"
+
+#. Author URI of the plugin
+msgid "https://barn2.com"
+msgstr "https://barn2.com"
+
+#. translators: %s: the author's name
+#: src/Simple_Posts_Table.php:313
+msgid "Posts by %s"
+msgstr "「%s」的文章"
+
+#: src/Simple_Posts_Table.php:104
+msgid "Content"
+msgstr "內容"
+
+#: src/Simple_Posts_Table.php:99
+msgid "Author"
+msgstr "作者"
+
+#: src/Simple_Posts_Table.php:94
+msgid "Date"
+msgstr "發佈日期"
+
+#: src/Simple_Posts_Table.php:84
+msgid "Categories"
+msgstr "分類"
+
+#: src/Simple_Posts_Table.php:79
+msgid "Title"
+msgstr "標題"
+
+#: src/Simple_Posts_Table.php:69
+msgid "ID"
+msgstr "ID"
